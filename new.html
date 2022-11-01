@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Pantry Request</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/main.css"  />
+</head>
+    <body>
+        <div class="container">
+            <form class="form" method="POST" action="https://mailthis.to/nydia1080@yahoo.com">
+                <h1 class="form__title">New Pantry Request Form</h1>
+                
+                <div class="form__message form__message--error"></div>
+                <div class="form__input-group">
+                    <input
+                    type="text"
+                    id="signupUsername"
+                    class="form__input"
+                    autofocus
+                    placeholder="Company Name"
+                    />
+                    <div class="form__input-error-message"></div>
+                </div>
+
+                <div class="form__input-group">
+                    <input
+                    type="text"
+                    class="form__input"
+                    autofocus
+                    placeholder="Adress"
+                    />
+                    <div class="form__input-error-message"></div>
+                </div>
+                    
+                <div class="form__input-group">
+                    <input
+                    type="text"
+                    class="form__input"
+                    autofocus
+                    placeholder="Contact Information"
+                    />
+                    <div class="form__input-error-message"></div>
+                </div>
+
+                <div class="form__input-group">
+                    <input
+                    type="text"
+                    class="form__input"
+                    autofocus
+                    placeholder="Email"
+                    />
+                    <div class="form__input-error-message">
+                </div>
+
+                <div class="form__input-group">
+                    <input
+                    type="text"
+                    class="form__input"
+                    autofocus
+                    placeholder="Social Media Handles"
+                    />
+                    <div class="form__input-error-message"></div>
+                </div>
+
+                <div class="form__input-group">
+                    <input
+                    type="text"
+                    class="form__input"
+                    autofocus
+                    placeholder="Services Provided"
+                            />
+                    <div class="form__input-error-message"></div>
+                </div>
+
+                <div class="form__input-group">
+                    <input
+                    type="text"
+                    class="form__input"
+                    autofocus
+                    placeholder="Requirements for Services"
+                    />
+                    <div class="form__input-error-message"></div>
+                </div>
+                <!--    <div class="form__input-group">
+                    <input
+                    type="password"
+                    class="form__input"
+                    autofocus
+                    placeholder="Password"
+                    />
+                    <div class="form__input-error-message"></div>
+                </div>
+
+                <div class="form__input-group">
+                    <input
+                    type="password"
+                    class="form__input"
+                    autofocus
+                    placeholder="Confirm password"
+                    />
+                    <div class="form__input-error-message"></div>
+                </div>-->
+
+                <div class="form__input-group">
+                    <button class="form__button" type="submit" value="submit">
+                        Continue
+                    </button>
+                    <div class="form__input-error-message"></div>
+                </div>
+                <p class="form__text">
+                    <a class="form__link" href="capstone.html" id="arrow"
+                      >⬅︎</a
+                    >
+                </p>
+            </form>
+        </div>
+        <script src="./src/main.js"></script>
+    </body>
+</html>
+<!-- blocked the password and password confirm because 
+    I'm not sure if I would allow them to enter the information themselves for the first time.
+
+    Need to make the Services provided area bigger.
+
+    need to make the requirements for service bigger.
+    
+    It is set up to post to Email ->

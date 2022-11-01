@@ -1,0 +1,73 @@
+Body{
+    background-color: black;
+}
+
+.navbar-nav {
+    font-size: 18px;
+    font-weight: 700;
+}
+#navbarNavAltMarkup {
+    color: orange;
+    font-size: 20px;
+}
+#nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+
+}
+
+#north {
+    background-image: url("vegetable.jpg");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+}
+#east {
+    background-image: url("east.jpg");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+}
+#west {
+    background-image: url("west.jpg");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+}
+#south {
+    background-image: url("south.jpg");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+}
+.row {
+    width: 100%;
+    height: 20vh;
+    border: 5px solid ;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 2px;
+    color:white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    section:nth-child(2) input {
+      width: 100%;
+    } /*targets specific devices with known width */
+  }
+@media only screen and (max-width: 400px) {
+    h1 { 
+        font-size: 50%;
+    }
+    
+}
+
+
