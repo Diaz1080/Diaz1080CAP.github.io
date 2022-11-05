@@ -67,8 +67,8 @@ div {
   white-space: nowrap;
   /* overflow: hidden; */
 }
-.p {
-  font-size: 50px;
+p {
+  font-size: 20px;
 }
 
 #hours {
