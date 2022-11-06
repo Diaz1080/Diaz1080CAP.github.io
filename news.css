@@ -83,6 +83,9 @@ p #arrow {
   max-width: fit-content;
 }
 #sncc {
+  margin-top: 10px;
   margin-right: 0;
   border-radius: 180%;
+  max-width: 200px;
+
 }
