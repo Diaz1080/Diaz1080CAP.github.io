@@ -75,13 +75,9 @@ p {
   font-size: 65%;
 }
 #logo {
-  width: auto;
-  height: auto;
+  max-width: fit-content;
 }
 #sncc {
   
   border-radius: 180%;
-}
-#nfp {
-  margin-top: 40px;
 }
