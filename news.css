@@ -37,8 +37,10 @@ h1 {
   margin-left: 0;
   margin-right: 0;
 }
-#col-5 {
-  font-size: auto;
+#col-4 {
+  font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
 }
 #col-6 {
   margin-top: 0;
@@ -68,7 +70,7 @@ div {
   /* overflow: hidden; */
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #hours {
@@ -78,6 +80,6 @@ p {
   max-width: fit-content;
 }
 #sncc {
-  
+  margin-right: 0;
   border-radius: 180%;
 }
