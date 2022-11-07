@@ -80,7 +80,9 @@ p #arrow {
   font-size: 65%;
 }
 #logo {
-  max-width: fit-content;
+  max-width: 40px;
+  margin-top: 15px;
+  
 }
 #sncc {
   margin-top: 10px;
